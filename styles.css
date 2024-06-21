@@ -1,7 +1,24 @@
 * {
-    font-family: Trebuchet MS, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', Tahoma, sans-serif;
 }
 
 .heading {
+    background-color: #CD5C5C;
     text-align: center;
+}
+
+.text-content {
+    background-color: #5CCDCD;
+    font-size: 20px;
+}
+
+.centered-image,
+.tagline
+ {
+    text-align: center;
+}
+
+.recipe-image {
+    height: 500px;
+    width: auto;
 }

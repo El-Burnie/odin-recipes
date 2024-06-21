@@ -10,12 +10,18 @@
 .text-content {
     background-color: #5CCDCD;
     font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .centered-image,
 .tagline
  {
     text-align: center;
+}
+
+.tagline {
+    font-style: italic;
 }
 
 .recipe-image {

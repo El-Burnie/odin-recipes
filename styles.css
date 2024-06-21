@@ -5,6 +5,7 @@
 .heading {
     background-color: #CD5C5C;
     text-align: center;
+    padding: 8px;
 }
 
 .text-content {
@@ -14,17 +15,22 @@
     margin-right: 50px;
 }
 
-.centered-image,
-.tagline
- {
-    text-align: center;
+.centered-image {
+    display: block;
+    margin: auto;
 }
 
 .tagline {
     font-style: italic;
+    padding: 8px;
 }
 
 .recipe-image {
     height: 500px;
     width: auto;
+}
+
+.homepage-title {
+    width: 500px;
+    margin: auto;
 }

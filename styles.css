@@ -2,6 +2,10 @@
     font-family: 'Trebuchet MS', Tahoma, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .heading {
     background-color: #CD5C5C;
     text-align: center;
@@ -28,6 +32,34 @@
 .recipe-image {
     height: 500px;
     width: auto;
+}
+
+.recipe-card-box {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 128px;
+}
+
+.recipe-card-box h1 {
+    margin-left: 8%;
+}
+
+.recipe-card {
+    display: inline-block;
+    border: 2px outset gray;
+    margin-left: 3%;
+    font-size: 20px;
+    height: 320px;
+    width: 220px;
+}
+
+.preview-image {
+    display: block;
+    height: 256px;
+    width: auto;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .homepage-title {

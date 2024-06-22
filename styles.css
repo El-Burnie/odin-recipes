@@ -1,19 +1,24 @@
 * {
     font-family: 'Trebuchet MS', Tahoma, sans-serif;
+    background-color: #D09343;
 }
 
 a {
     text-decoration: none;
 }
 
+img {
+    border: 2px ridge #D04C43;
+}
+
 .heading {
-    background-color: #CD5C5C;
+    background-color: #C6D043;
+    border: 2px ridge #D04C43;
     text-align: center;
     padding: 8px;
 }
 
 .text-content {
-    background-color: #5CCDCD;
     font-size: 20px;
     margin-left: 50px;
     margin-right: 50px;
@@ -26,6 +31,7 @@ a {
 
 .tagline {
     font-style: italic;
+    margin-top: 8px;
     padding: 8px;
 }
 
@@ -40,17 +46,20 @@ a {
     margin-bottom: 128px;
 }
 
-.recipe-card-box h1 {
-    margin-left: 8%;
-}
-
 .recipe-card {
     display: inline-block;
-    border: 2px outset gray;
+    border: 3px outset #D04C43;
+    background-color: #C6D043;
     margin-left: 3%;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 22px;
     height: 320px;
-    width: 220px;
+    width: 250px;
+}
+
+.recipe-card:active,
+.recipe-card:focus {
+    border: 3px inset #D04C43;
 }
 
 .preview-image {
@@ -58,11 +67,12 @@ a {
     height: 256px;
     width: auto;
     margin: auto;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .homepage-title {
     width: 500px;
     margin: auto;
+    margin-bottom: 64px;
 }

@@ -1,8 +1,14 @@
-body {
+.homepage{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.recipe-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 * {
@@ -25,15 +31,40 @@ img {
     padding: 8px;
 }
 
-.text-content {
-    font-size: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+.heading-container,
+.ingredients-container,
+.steps-container,
+.content-container {
+    display: flex;
+    flex-direction: column;
 }
 
-.centered-image {
-    display: block;
-    margin: auto;
+.heading-container {
+    align-items: center;
+}
+
+.instructions-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.ingredients-container {
+    flex: 1 1 100px;
+}
+
+.steps-container {
+    flex: 3 1 300px;
+
+}
+
+.description {
+    margin-left: 26px;
+    margin-right: 26px;
+} 
+
+.text-content {
+    font-size: 18px;
 }
 
 .tagline {
@@ -44,7 +75,7 @@ img {
 }
 
 .recipe-image {
-    height: 500px;
+    height: 400px;
     width: auto;
 }
 

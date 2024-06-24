@@ -1,3 +1,10 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 * {
     font-family: 'Trebuchet MS', Tahoma, sans-serif;
     background-color: #D09343;
@@ -31,6 +38,7 @@ img {
 
 .tagline {
     font-style: italic;
+    text-align: center;
     margin-top: 8px;
     padding: 8px;
 }
@@ -41,9 +49,11 @@ img {
 }
 
 .recipe-card-box {
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-bottom: 128px;
+    padding: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
 }
 
 .recipe-card {
@@ -73,6 +83,7 @@ img {
 
 .homepage-title {
     width: 500px;
-    margin: auto;
-    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
